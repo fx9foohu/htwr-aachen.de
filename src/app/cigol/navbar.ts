@@ -10,6 +10,11 @@ export const navbar: NavbarConfig = {
 	},
 	linkElements: [
 		{
+			name: "Courses",
+			href: "/courses",
+			path: "/courses",
+		},
+		{
 			name: "Cigol Home",
 			href: "/cigol",
 		},

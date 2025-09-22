@@ -14,6 +14,11 @@ export const navbar: NavbarConfig = {
 	},
 	linkElements: [
 		{
+			name: "Courses",
+			href: "/courses",
+			path: "/courses",
+		},
+		{
 			name: "⚠PSP",
 			href: "/deddebme/psp",
 			path: "/psp",

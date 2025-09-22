@@ -3,6 +3,11 @@ import type { NavbarConfig } from "@/models/layout";
 export const DefaultNavbar: NavbarConfig = {
 	linkElements: [
 		{
+			name: "Courses",
+			href: "/courses",
+			path: "/courses",
+		},
+		{
 			name: "Blog",
 			href: "/blog",
 			path: "/blog",
