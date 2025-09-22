@@ -14,6 +14,11 @@ export const navbar: NavbarConfig = {
 	},
 	linkElements: [
 		{
+			name: "Courses",
+			href: "/courses",
+			path: "/courses",
+		},
+		{
 			name: "⚠ IT-Sec",
 			href: "/cesti/itsec",
 			path: "/cesti/itsec",

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Advanced Machine Learning",
+    "lecturer": "Prof. Dr. Müller",
+    "semester": "Winter Semester 2024/25",
+    "description": "This course covers advanced topics in machine learning, including deep learning, reinforcement learning, and generative models."
+  },
+  {
+    "name": "Compiler Construction",
+    "lecturer": "Prof. Dr. Schmidt",
+    "semester": "Winter Semester 2024/25",
+    "description": "Learn how to build a compiler from scratch. Topics include lexical analysis, parsing, semantic analysis, and code generation."
+  },
+  {
+    "name": "IT-Security",
+    "lecturer": "Prof. Dr. Weber",
+    "semester": "Winter Semester 2024/25",
+    "description": "An introduction to the principles of IT-security. Topics include cryptography, network security, and secure software development."
+  },
+  {
+    "name": "Data Science",
+    "lecturer": "Dr. Meier",
+    "semester": "Winter Semester 2024/25",
+    "description": "This course provides a comprehensive introduction to the field of data science, covering data acquisition, cleaning, analysis, and visualization."
+  }
+]
