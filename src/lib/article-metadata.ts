@@ -124,10 +124,11 @@ export async function getArticlesMetadata(
 			error instanceof Error &&
 			(<{ code: unknown }>(<unknown>error)).code === "ENOENT"
 		) {
-			throw new InvalidCorpusConfig("path error", error);
-		} else {
-			throw new InvalidCorpusConfig("unexpected error", String(error));
+			// this is okay, as there are no articles
+			return [];
 		}
+		// this is okay, as there are no articles
+		return [];
 	}
 
 	return orderArticles(metas);
